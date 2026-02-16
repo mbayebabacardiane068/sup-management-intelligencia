@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="img\unnamed.png" alt="Logo" class="logo"></li>
+                <li>
+                    <h2>Sup'<span>Management</span><br> Intelligencia</h2>
+                </li>
+                <li class="icon">
+
+                    <a href="index.html" class="actif"><img src="img\house-solid-full.svg" alt="">Accueil</a>
+                </li>
+                <li>
+
+                    <a href="index.html" class="icon"><img src="img\web-programming.png" alt="">Programmes</a>
+                </li>
+                <li>
+
+                    <a href="formulaire.html" class="icon"> <img src="img\exam2.png" alt="">Formulaires</a>
+                </li>
+                <li>
+
+                    <a href="index.html" class="icon"> <img src="img\calendar-solid-full.svg" alt="">Calendrier</a>
+                </li>
+                <li>
+
+                    <a href="index.html" class="icon"><img src="img\speaker.png" alt="">Actualités</a>
+                </li>
+                <li>
+
+                    <a href="index.html" class="icon"> <img src="img\address-book-solid-full.svg" alt="">Equipes</a>
+                </li>
+                <li>
+                    <a href="index.html" class="icon"> <img src="img\envelope-solid-full.svg" alt="">Contact</a>
+                </li>
+                <li> <button class="active">Admission <br>2025</button></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="form">
+        <h1>Centre de formulaire SMI </h1>
+        <p>accéder a tous les Formulaires necessaires pour vortre parcours académique .
+            remplissez en ligne <br>et soumettez directement a l'administration </p>
+    </div>
+    <section class="formulaire">
+        <div class="dimention">
+            <form action="" class="">
+
+                <div class="head-form">
+                    <div class="icon20">
+                        <img src="img\exam.png" alt="">
+                    </div>
+                    <h1>Formulaire de demande académique complete</h1>
+                </div>
+                <hr>
+                <br>
+                <div class="group-form">
+                    <div class="group-gauche">
+                        <label for="nom">
+                            <img src="programmer.png" alt="">
+                            <h1>Nom complete <span>*</span></h1>
+                        </label>
+                        <input type="text" id="nom" name="nom" placeholder="NOM , PRENOM" required>
+                        <br> <br>
+                        <label for="email">
+                            <img src="telephone-handle-silhouette.png" alt="">
+                            <h1>Numero Etude <span>*</span></h1>
+                        </label>
+                        <input type="email" id="email" name="email" placeholder=" SMI-2024-XXXXX" required>
+                        <h3>Format : SMI-ANNE_NNNN </h3></input>
+                        <br>
+                        <label for="telephone">
+                            <img src="email.png" alt="">
+                            <h1>Email academique <span>*</span></h1>
+                        </label>
+                        <input type="tel" id="telephone" name="telephone" placeholder="exemple@supmanagement.edu"
+                            required>
+                    </div>
+                    <div class="group-droite">
+                        <label for="prenom">
+                            <img src="img\code.png" alt="">
+                            <h1>Programme Etude <span>*</span></h1>
+                        </label>
+                        <select id="liste-formation" name="liste-formation" required>
+                            <option value="">MBI Intelligencia & Management</option>
+                            <option value="formation1">informatique de gestion</option>
+                            <option value="formation2">comptabiliter de gestion </option>
+                            <option value="formation3">Transport et logistique</option>
+                        </select>
+                        <br><br>
+                        <label for="date">
+                            <img src="calendar.png" alt="">
+                            <h1>Annee academique <span>*</span></h1>
+                        </label>
+                        <select name="annee" id="annee" required>
+                            <option value="">Sélectionner une année</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                        </select>
+                        <br><br>
+                        <label for="message">
+                            <img src="img\notes.png" alt="">
+                            <h1>Moyenne general (sur 20) <span>*</span></h1>
+                        </label>
+                        <input type="text" id="Moyenne" name="message" required>
+                        <br>
+                        <br>
+
+                        <h1 class="moyenne-resultat">Moyenne = 12.0/20</h1>
+
+                    </div>
+                </div>
+                <div class="group1-form">
+                    <div class="group1-gauche">
+                        <label for="date-naissance">
+                            <img src="calendar.png" alt="">
+                            <h1>Date de naissance <span>*</span></h1>
+                        </label>
+                        <input type="date" id="date-naissance" name="date-naissance" placeholder="JJ/MM/AAAA" required>
+                        <br>
+                        <br>
+                        <label for="date-demande">
+                            <img src="calendar.png" alt="">
+                            <h1>Date de la demande <span>*</span></h1>
+                        </label>
+                        <input type="date" id="date-demande" name="date-demande" placeholder="JJ/MM/AAAA" required> <br>
+                        <br>
+                        <div class="align">
+
+                            <label for="statut-matrimonial">
+                                <img src="clock.png" alt="">
+                                <h1>Disponibilite </h1>
+                            </label>
+                            <div class="collum">
+                                <div class="collum1">
+                                    <input type="checkbox" id="matin" name="disponible" value="Disponible">
+                                    <label for="matin">Matin</label>
+
+                                </div>
+                                <div class="collum1">
+                                    <input type="checkbox" id="apres-midi" name="disponible" value="Disponible">
+                                    <label for="apres-midi">Apres-midi</label>
+
+                                </div>
+                                <div class="collum1">
+                                    <input type="checkbox" id="soir" name="disponible" value="Disponible">
+                                    <label for="soir">Soir</label>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group1-droite">
+                        <label for="drag-and-drop">
+                            <img src="expand.png" alt="">
+                            <h1>Documents à joindre <span>*</span></h1>
+                        </label>
+                        <input type="file" id="drag-and-drop" name="drag-and-drop" placeholder="" required>
+                        <div class="haut">
+                            <img src="calendar.png" alt="">
+                            <h4>Cliquer pour selectionner des fichiers</h4>
+                        </div>
+                        <p>Format accepter : PDF, DOCX, JPG (max 10 ) </p>
+
+                        <label for="type-demande">
+                            <img src="finish.png" alt="">
+                            <h1>Type de demande <span>*</span></h1>
+                        </label>
+                        <div class="ligne">
+                            <div class="ligne1">
+                                <input type="radio" id="matin" name="disponible" value="Disponible">
+                                <label for="matin">Matin</label>
+
+                            </div>
+                            <div class="ligne1">
+                                <input type="radio" id="apres-midi" name="disponible" value="Disponible">
+                                <label for="apres-midi">Apres-midi</label>
+
+                            </div>
+                            <div class="ligne1">
+                                <input type="radio" id="soir" name="disponible" value="Disponible">
+                                <label for="soir">Soir</label>
+
+                            </div>
+                        </div>
+                        <br>
+
+                        <label for="type-demande">
+                            <img src="interface.png" alt="">
+                            <h1>Niveau d'urgence <span>*</span></h1>
+                        </label>
+                        <select name="urgence" id="">
+                            <option value="">moyen traitement sur 7 jours</option>
+                            <option value="">5 jours</option>
+                            <option value="">7 jours</option>
+                        </select>
+
+                    </div>
+                </div>
+                <div class="good-day">
+                    <label for="description">
+                        <img src="chat.png" alt="">
+                        <h1>Description détaillée <span>*</span></h1>
+                    </label>
+                    <textarea id="description" name="description" rows="4"
+                        placeholder="Ecrivez en détail votre demande , vos besoins specifique et toutes information pertinente"
+                        required></textarea>
+                </div>
+
+                <div class="after-good-day">
+                    <div class="after">
+                        <label for="">
+                            <img src="telephone-handle-silhouette.png" alt="">
+                            <h1>telephone de contact </h1>
+                        </label>
+                        <input type="text" id="conseiller" name="conseiller" rows="4" placeholder="+33 123 456 789 "
+                            required>
+                    </div>
+
+                    <div class="after">
+                        <label for="">
+                            <img src="programmer.png" alt="">
+                            <h1>conseiller academique </h1>
+                        </label>
+                        <input type="text" id="conseiller" name="conseiller" rows="4"
+                            placeholder="nom de votre conseiller " required>
+                    </div>
+                    <div class="after">
+                        <label for="">
+                            <img src="dollar-symbol.png" alt="">
+                            <h1>budjet estimer ($)</h1>
+                        </label>
+                        <input type="number" id="budget" name="budget" rows="4" placeholder="" required>
+                    </div>
+                </div>
+                <div class="notif">
+                    <label for="notification">
+                        <img src="notification.png" alt="">
+                        <h1>Préférences de la Notification</h1>
+                    </label>
+                    <div class="click">
+                        <div class="click1">
+                            <input type="checkbox" id="matin" name="disponible" value="Disponible">
+                            <label for="matin">Notification par Mail </label>
+
+                        </div>
+                        <div class="click1">
+                            <input type="checkbox" id="apres-midi" name="disponible" value="Disponible">
+                            <label for="apres-midi">Notification par SMS</label>
+
+                        </div>
+                        <div class="click1">
+                            <input type="checkbox" id="soir" name="disponible" value="Disponible">
+                            <label for="soir">Notification par le portail</label>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="the-end">
+                    <div class="end">
+                        <img src="exclamation.png" alt="">
+                        <h1>Instruction importante </h1>
+                    </div>
+                    <p>Tout les champs marquer avec un astérisque (*) sont obligatoire. Le dossier doit etre lisible et
+                        complet pour etre traiter. <br>
+                        vous receverez un accusé de réception par mail apres soumission.Pour les demande urgnet
+                        contacter
+                        direct le concerner
+                    </p>
+                </div>
+                <br> <br>
+                <hr> <br> <br>
+                <div class="form-footer">
+                    <button type="reset" class="reset">
+                        <img src="undo.png" alt="">
+                        <h2>Rénitialiser</h2>
+                    </button>
+                    <button type="submit" class="submite">
+                        <img src="send.png" alt="">
+                        <h2>Soumettre la demande</h2>
+                    </button>
+
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <section>
+        <h1>Autres formulaire disponible</h1>
+    </section>
+
+</body>
+
+</html>
