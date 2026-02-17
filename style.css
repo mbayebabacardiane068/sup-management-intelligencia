@@ -903,3 +903,65 @@ margin-bottom: 5px;
     height: 20px;
     margin-right: 10px;
 }
+.body-formulaire{
+    background-color: #f2f3f3;
+}
+.autre-formulaire{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 90px;
+    margin-bottom:20px;
+}
+.autre1{
+    width: 285px;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+}
+.autre1:hover{
+    transform: translateY(-5px);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.autre1 h2{
+    color: #2a2483;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.autre1 p{
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.section-formulaire{
+    display: block;
+    text-align: center;
+    margin-bottom: 200px;
+
+}
+.section-formulaire h1{
+    color: #2a2483;
+    font-size: 30px;
+    margin-right: 850px;
+    margin-bottom: 20px;
+}
+.icon21{
+    padding: 10px 10px;
+    background-color: #f5d6b9;
+    border-radius: 10px;
+    margin-top: -10px;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+.autre-formulaire1{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 700px;
+    margin-bottom:20px;
+
+}
