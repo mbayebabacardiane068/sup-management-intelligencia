@@ -281,7 +281,7 @@ div button img{
 .academi{
     padding-top: 100px;
     background-color: #f5ecec;
-    padding: 200px 200px;
+    
 }
 .headers{
     text-align: center;
@@ -308,12 +308,21 @@ div button img{
 .carte{
     display: block;
     text-align: center;
-    background-color: white;
-    width: 450px;
     height: 350px;
     border-radius: 20px;
 
 }
+.cate{
+    width: 430px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 150px;
+}
+.cate:hover{
+    transform: translateY(10px);
+    transition: transform 0.7s, box-shadow 0.7s;
+}
+
 .carte h1{
     color: #271bd1;
     margin-bottom: 20px;
