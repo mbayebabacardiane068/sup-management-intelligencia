@@ -974,3 +974,42 @@ margin-bottom: 5px;
     margin-bottom:20px;
 
 }
+.col-img img{
+    width: 1724px;
+    height:400px;
+    margin-top: 30px; 
+    border-bottom-right-radius: 20px;
+    opacity : 0.4 ;
+}
+.face-las{
+    width: 1724px;
+    height:400px;
+    border-bottom-right-radius: 20px;
+    background-color: #090999;
+    margin-top: -303px;
+    
+}
+.face-las1{
+    margin-top : -230px; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3329bb;
+    padding : 100px 10px ; 
+    margin-left : 600px;
+    margin-right: 600px;
+    margin-top: -300px;
+    opacity : 0.5 ;
+}
+.insert{
+    margin-top: -280px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity : 3 ;
+}
+.insert h1{
+    color: white;
+    font-weight: bold;
+}
